@@ -12,4 +12,4 @@ When you're done, in your terminal run:
 
 <b>python sentiment analysis.py --keyword replacethiswithanysearchkeyword</b>
 
-The aim of this was to get tweets about a certain topic (ie: the keyword) and analyse it with TextBlob so find whether it's a negative or positive tweet and save it to a CSV file
+The aim of this was to get tweets about a certain topic (ie: the keyword) and analyse it with TextBlob inorder to find whether it's a negative or positive tweet and save it to a CSV file
