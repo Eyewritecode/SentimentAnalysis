@@ -3,18 +3,17 @@ import csv
 from textblob import TextBlob
 import argparse
 
-consumer_key        = "xXgGzFe8PyWOoD7x1T2KB0sB9"
-consumer_secret     = "VLZRK2QstddIELeCcwzvb0zapo5Nx8zadcCWjv9mbE2ogGgHRJ"
-access_token        = "51032036-L0Af231f8X2JCjcaWNscPK7Cxd2ZHdLqI0fH1CV5f"
-access_token_secret = "YxBJtKc2KBgnUunc8kVNZSD9rdsWkyXum4zg2eJOd69X6"
+consumer_key        = "loremipsum"
+consumer_secret     = "loremipsum"
+access_token        = "loremipsum"
+access_token_secret = "loremipsum"
 
 auth = tweety.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--keyword', type=str, help='Enter the string to be searched')
-parser.add_argument('--max', type=int, help='Maximum number of tweets in the CSV file')
+parser.add_argument('--keyword', type=str)
 args = parser.parse_args()
 searchkeyword = args.keyword
 
