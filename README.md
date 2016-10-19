@@ -2,11 +2,11 @@
 My contribution to Twitter Sentiment Analysis Challenge by @Sirajology on Youtube
 
 To run this, you need to create a twitter app and get all the credentials needed
-Install tweepy
-pip install tweepy
+<b>Install tweepy</b>
+<i>pip install tweepy</i>
 
-install textblob
-pip install textblog
+<b>install textblob</b>
+<i>pip install textblog</i>
 
 When you're done, in your terminal run:
 
